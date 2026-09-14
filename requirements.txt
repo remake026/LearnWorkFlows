@@ -1,0 +1,16 @@
+# 依赖版本说明：
+# - requests / urllib3 / cryptography / idna 等更新到较新版本，修复已知 CVE
+# - wechatpy 固定 1.8.18：2.x 版本 API 不兼容（导入路径和类名变更）
+certifi>=2024.8.30
+cffi>=1.17.0
+charset-normalizer>=3.3.2
+cryptography>=42.0.8
+idna>=3.8
+optionaldict==0.1.2
+pycparser>=2.22
+python-dateutil>=2.9.0
+requests>=2.32.3
+six==1.16.0
+urllib3>=2.2.2
+wechatpy==1.8.18
+xmltodict==0.13.0
