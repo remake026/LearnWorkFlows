@@ -1,9 +1,7 @@
 name: goodnight
 
 on:
-  schedule:
-    # UTC 2:30 = 北京时间 10:30
-    - cron: '30 2 * * *'
+
   workflow_dispatch:  # 允许手动触发测试
 
 jobs:
